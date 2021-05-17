@@ -34,4 +34,10 @@ body {
     width: 34px;
     background: #ecbcb4;
     border: 2px solid #a1665e;
+    border-bottom: none;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    transform: rotate(-51deg);
+    top: 110px;
+    left: -122px;
 }
