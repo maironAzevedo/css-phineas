@@ -90,3 +90,30 @@ body {
 .eye.back::after {
     box-shadow: none;
 }
+
+.hair>div {
+    position: absolute;
+    background: transparent;
+    height: 30px;
+    width: 100px;
+    border-top: 20px solid red;
+    border-radius: 50px 40px 0 0;
+    top: 180px;
+    right: 100px;
+}
+
+.hair>div:first-child {
+    transform: rotate(-150deg);
+}
+
+.hair>div:nth-child(2) {
+    transform: rotate(-100deg);
+}
+
+.hair>div:nth-child(3) {
+    transform: rotate(-50deg);
+}
+
+.hair>div:nth-child(4) {
+    transform: rotate(-200deg);
+}
